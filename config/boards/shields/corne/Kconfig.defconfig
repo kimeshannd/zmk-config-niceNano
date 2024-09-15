@@ -8,9 +8,6 @@ config ZMK_KEYBOARD_NAME
 	
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-	
-config ZMK_USB
-	default y
 
 endif
 
@@ -45,8 +42,5 @@ choice LV_COLOR_DEPTH
 endchoice
 
 endif # LVGL
-
-config ZMK_BLE
-	default y
 	
 endif
