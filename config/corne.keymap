@@ -45,12 +45,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-
 &kp TAB    &kp N1  &kp N2            &kp N3     &kp N4             &kp N5     &kp N6     &kp N7     &kp N8  &kp N9     &kp N0   &kp BSPC
 &trans     &trans  &kp LA(LC(LEFT))  &kp LC(B)  &kp LC(LA(RIGHT))  &trans     &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT  &kp DEL  &kp C_VOL_UP
 &kp LSHFT  &trans  &trans            &trans     &trans             &kp F12    &kp PSCRN  &kp LC(B)  &trans  &trans     &trans   &kp C_VOL_DN
                                      &kp LALT   &trans             &trans     &trans     &trans     &trans
-
             >;
         };
 
@@ -75,6 +73,15 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans   &trans
 &trans      &out OUT_TOG  &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans   &trans
                                         &trans        &trans        &trans          &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &kp B   &kp L   &kp D   &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
